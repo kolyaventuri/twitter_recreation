@@ -17,10 +17,13 @@ body {
   grid-gap: 0;
 }
 
+.left, .right {
+  position: relative;
+}
+
 .left {
   background: #1DA1F2;
   color: #FFFFFF;
-  position: relative;
 }
 
 .right {
@@ -38,18 +41,84 @@ body {
   border-top: 1px solid #DDDDDD;
 }
 
-/* LEFT BOX STYLES */
-
-.left .list {
-  font-weight: bold;
-  font-size: 1.2em;
-
+.center-h-v {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+/* LEFT BOX STYLES */
+
+.left .list {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .left .list li {
   padding: 1.25em;
+}
+
+/* RIGHT BOX STYLES */
+
+.right .register {
+  max-width: 40%;
+}
+
+.right .register * {
+  padding: 0.5em;
+  margin:0;
+}
+
+.right .register h1, .right .register h1, h2 {
+  font-weight: bold;
+}
+
+.right .register h1 {
+  font-size: 1.75em;
+}
+
+.right .register h2 {
+  font-size: 1.125em;
+  margin-left: 0.375em;
+}
+
+.right .register form input {
+  padding: 1em;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #DDD;
+}
+
+.right .register form input:nth-child(2) {
+  margin-top: 1.25em;
+}
+
+.right .register .row * {
+  display: inline-block;
+}
+
+.btn.submit {
+  background: #1DA1F2;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 0.65em 0.85em;
+  font-weight: bold;
+  font-size: 0.9em;
+
+  position: absolute;
+  left:0;
+}
+
+.col.login {
+  position: absolute;
+  right:0;
+
+  font-size: 0.85em;
+}
+
+.col.login a {
+  text-decoration: none;
+  color: #1DA1F2;
 }
