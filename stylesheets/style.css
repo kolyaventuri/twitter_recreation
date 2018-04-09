@@ -50,10 +50,22 @@ body {
   padding: 1.25em;
 }
 
+.left .list li svg {
+  font-size: 1.5em;
+  padding-right: 0.5em;
+}
+
 /* RIGHT BOX STYLES */
 
 .right .register {
   max-width: 40%;
+}
+
+.right .register svg {
+  color: #1DA1F2;
+  font-size: 3em;
+  padding: 0;
+  margin-left: 0.5em;
 }
 
 .right .register * {
@@ -116,11 +128,11 @@ body {
 
 .right .signin {
   position: absolute;
-  right: 5em;
-  top: 1.5em;
+  right: 8em;
+  top: -1em;
 }
 
-.signin * {
+.signin *:not(form) {
   padding: 0.5em;
 }
 
