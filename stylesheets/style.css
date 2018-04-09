@@ -122,3 +122,51 @@ body {
   text-decoration: none;
   color: #1DA1F2;
 }
+
+.right .signin {
+  position: absolute;
+  right: 5em;
+  top: 1.5em;
+}
+
+.signin * {
+  padding: 0.5em;
+}
+
+.signin form .col {
+  display: inline-block;
+}
+
+.col.pwd * {
+  display: block;
+}
+
+.col.pwd {
+  transform: translateY(37.5%);
+}
+
+.col.pwd a {
+  position: relative;
+  font-size: 0.75em;
+  color: #666666;
+  text-decoration: none;
+}
+
+.signin form input {
+  padding: 0.75em;
+  border-radius: 3px;
+  border: 1px solid #DDD;
+}
+
+.signin form .btn.login {
+  text-decoration: none;
+  color: #1DA1F2;
+
+  padding: 0.75em;
+  margin-left: 0.25em;
+
+  border: 1px solid #1DA1F2;
+  border-radius: 20px;
+
+  font-weight: bold;
+}
