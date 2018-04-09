@@ -26,6 +26,15 @@ body {
 .left {
   background: #1DA1F2;
   color: #FFFFFF;
+  overflow:hidden;
+}
+
+.left svg.bg {
+    color: #1B95E0;
+    position: absolute;
+    right:0;
+    font-size: 100em;
+    transform: translate(46%, -20%);
 }
 
 .right {
